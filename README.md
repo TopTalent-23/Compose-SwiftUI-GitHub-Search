@@ -3,14 +3,6 @@
 Github Repos Search - Kotlin Multiplatform Mobile using Jetpack Compose, SwiftUI,
  FlowRedux, Coroutines Flow, Dagger Hilt, Koin Dependency Injection, shared KMP ViewModel, Clean Architecture
 
-[![Android Build CI](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/build.yml/badge.svg)](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/build.yml)
-[![iOS Build CI](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/ios-build.yml/badge.svg)](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/ios-build.yml)
-[![Validate Gradle Wrapper](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/gradle-wrapper-validation.yml/badge.svg)](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/gradle-wrapper-validation.yml)
-[![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=23)
-[![Kotlin](https://img.shields.io/badge/kotlin-1.9.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
-[![codecov](https://codecov.io/gh/hoc081098/GithubSearchKMM/branch/master/graph/badge.svg?token=qzSAFkj09P)](https://codecov.io/gh/hoc081098/GithubSearchKMM)
-[![Platform](https://img.shields.io/cocoapods/p/BadgeHub.svg?style=flat)](https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-14-release-notes)
 
 Minimal **Kotlin Multiplatform** project with SwiftUI, Jetpack Compose.
  - Android (Jetpack compose)
