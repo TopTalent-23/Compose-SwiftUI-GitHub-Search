@@ -1,4 +1,4 @@
-# GithubSearchKMM
+# GithubSearch
 
 Github Repos Search - Kotlin Multiplatform Mobile using Jetpack Compose, SwiftUI,
  FlowRedux, Coroutines Flow, Dagger Hilt, Koin Dependency Injection, shared KMP ViewModel, Clean Architecture
@@ -8,7 +8,6 @@ Github Repos Search - Kotlin Multiplatform Mobile using Jetpack Compose, SwiftUI
 [![Validate Gradle Wrapper](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/gradle-wrapper-validation.yml/badge.svg)](https://github.com/hoc081098/GithubSearchKMM/actions/workflows/gradle-wrapper-validation.yml)
 [![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=23)
 [![Kotlin](https://img.shields.io/badge/kotlin-1.9.21-blue.svg?logo=kotlin)](http://kotlinlang.org)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhoc081098%2FGithubSearchKMM&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/hoc081098/GithubSearchKMM/branch/master/graph/badge.svg?token=qzSAFkj09P)](https://codecov.io/gh/hoc081098/GithubSearchKMM)
 [![Platform](https://img.shields.io/cocoapods/p/BadgeHub.svg?style=flat)](https://developer.apple.com/documentation/ios-ipados-release-notes/ios-ipados-14-release-notes)
@@ -16,10 +15,6 @@ Github Repos Search - Kotlin Multiplatform Mobile using Jetpack Compose, SwiftUI
 Minimal **Kotlin Multiplatform** project with SwiftUI, Jetpack Compose.
  - Android (Jetpack compose)
  - iOS (SwiftUI)
-
-Liked some of my work? Buy me a coffee (or more likely a beer)
-
-<a href="https://www.buymeacoffee.com/hoc081098" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height=64></a>
 
 ### Modern Development
  - Kotlin Multiplatform
@@ -35,7 +30,7 @@ Liked some of my work? Buy me a coffee (or more likely a beer)
 ## Tech Stacks
  - Functional & Reactive programming with **Kotlin Coroutines with Flow**
  - **Clean Architecture** with **MVI** (Uni-directional data flow)
- - [**Multiplatform ViewModel and SavedStateHandle**](https://github.com/hoc081098/kmp-viewmodel) (save and restore states across process death), by [@hoc081098](https://github.com/hoc081098)
+ - [**Multiplatform ViewModel and SavedStateHandle**](https://github.com/hoc081098/kmp-viewmodel) (save and restore states across process death)
  - **Multiplatform FlowRedux** State Management
  - [**Λrrow** - Functional companion to Kotlin's Standard Library](https://arrow-kt.io/)
    - [Either](https://arrow-kt.io/docs/apidocs/arrow-core/arrow.core/-either/)
@@ -51,7 +46,7 @@ Liked some of my work? Buy me a coffee (or more likely a beer)
  - [Ktor client library](https://ktor.io/docs/getting-started-ktor-client-multiplatform-mobile.html) for networking
  - [Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization) for JSON serialization/deserialization.
  - [Napier](https://github.com/AAkira/Napier) for Multiplatform Logging.
- - [FlowExt](https://github.com/hoc081098/FlowExt) provides many kotlinx.coroutines.Flow operators, by [@hoc081098](https://github.com/hoc081098)
+ - [FlowExt](https://github.com/hoc081098/FlowExt) provides many kotlinx.coroutines.
  - [Touchlab SKIE](https://skie.touchlab.co/) a Swift-friendly API Generator for Kotlin Multiplatform.
  - [kotlinx.collections.immutable](https://github.com/Kotlin/kotlinx.collections.immutable): immutable collection interfaces and implementation prototypes for Kotlin..
  - Testing
@@ -235,10 +230,6 @@ class IOSGithubSearchViewModel: ObservableObject {
   }
 }
 ```
-
-## Download APK
-
-- [Download latest debug APK here](https://nightly.link/hoc081098/GithubSearchKMM/workflows/build/master/app-debug.zip)
 
 # Building & Develop
 
